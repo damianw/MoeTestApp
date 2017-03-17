@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hea-iS-d3j">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Dh8-WQ-nbz">
+            <objects>
+                <viewController id="hea-iS-d3j" customClass="ViewController" customModule="MoeTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hw5-UH-4m0"/>
+                        <viewControllerLayoutGuide type="bottom" id="7DX-h3-wIw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ev7-Em-6EB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yly-lH-DzC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Yly-lH-DzC" firstAttribute="width" secondItem="ev7-Em-6EB" secondAttribute="width" id="Df8-LF-aLr"/>
+                            <constraint firstItem="Yly-lH-DzC" firstAttribute="height" secondItem="ev7-Em-6EB" secondAttribute="height" id="G8t-KN-9Bl"/>
+                            <constraint firstItem="Yly-lH-DzC" firstAttribute="centerX" secondItem="ev7-Em-6EB" secondAttribute="centerX" id="olL-Ga-MG0"/>
+                            <constraint firstItem="Yly-lH-DzC" firstAttribute="centerY" secondItem="ev7-Em-6EB" secondAttribute="centerY" id="q2a-yG-j7d"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="RoV-tK-sth"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NCG-KQ-klP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-497" y="-276"/>
+        </scene>
+    </scenes>
+</document>
